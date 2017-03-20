@@ -21,6 +21,8 @@ collections: # A list of collections the CMS should be able to edit
     label: "Tests"
     folder: "tests"
     create: true
+    fields:
+      - {label: "Body", name: "body", widget: "markdown"}
   - name: "pages"
     label: "Pages"
     files:
